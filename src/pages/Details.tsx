@@ -1,6 +1,12 @@
 import React from 'react';
 import { IonBackButton, IonButtons, IonHeader, IonPage, IonToolbar, IonTitle, IonContent } from '@ionic/react';
 
+const api = () =>{
+  return process.env.REACT_APP_API_ENDPOINT;
+}
+
+console.log(api);
+
 const Details: React.FC = () => {
   return (
     <IonPage>

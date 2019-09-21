@@ -11,6 +11,7 @@
     "@types/react-dom": "^16.9.0",
     "@types/react-router": "^5.0.3",
     "@types/react-router-dom": "^4.3.1",
+    "env-cmd": "^10.0.1",
     "ionicons": "^4.6.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -22,6 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:staging": "env-cmd -f .env.staging react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
